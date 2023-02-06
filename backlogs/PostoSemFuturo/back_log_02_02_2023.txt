@@ -1,0 +1,26 @@
+Sistema de controle financeiro de posto de gasolina
+Requisitos funcionais:
+    + Funcionário:
+        – cadastrar clientes
+            --- funcionários só podem cadastrar clientes e não outros funcionários
+        – enviar convite para o cliente
+        – através da nota e do CPF registrar informações do abastecimento
+        – cadastrar e atualizar informações (registradas)
+        – não pode deletar informações
+        – diferentes níveis de acesso para funcionários
+        – cadastrar postos
+            --- registrar itens do posto
+        – cadastrar funcionários e dependentes
+        – salario
+        – relatórios
+        – registro de logs (entrada e saída de informações(cadastros, atualizações)) funcionário não tem acesso
+        – atualizações em tempo real (React)
+    + Cliente:
+        – sera informado para pessoa a relação de abastecimento (através do CPF)
+        – relatórios
+
+Requisitos não funcionais/requisitos do sistema:
+    – criações das tabelas separadas
+    – manter o sistema em funcionamento
+    – segurança dos dados e de acesso
+    – sistema simples de entendimento
